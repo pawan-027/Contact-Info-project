@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">OM ENTERPRISES</div>
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#stwo">Contact Us</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <div class="burger">
+                <button class="burger-btn"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="banner">
+                <img src="banner.jpg" alt="interior wall">
+            </div>
+        </section>
+        <section id="stwo">
+            <div class="box">
+            <h1>Contact Us</h1>
+            <div class="Contact-form">
+                <form action="post">
+                    <label for="name">First Name:</label><br>
+                    <input type="text" id="name" placeholder="Enter first name" required><br>
+
+                    <label for="name">Last Name:</label><br>
+                    <input type="text" id="name" placeholder="Enter last name" required><br>
+
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" placeholder="Enter gmail here" required><br>
+
+                    <label for="phone">Phone No.:</label><br>
+                    <input type="tel" id="phone" placeholder="Enter number here" required><br>
+
+                    <label for="review" >Write a review:</label><br>
+                    <textarea name="review" id="review" rows="4" required>Enter here...</textarea><br>
+
+                    <input type="submit" name="btn" id="form-btn">
+                </form>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div id="about">
+                <div class="profile">
+                    <p class="info">OM ENTERPRISES</p>
+                    <p class="para">OM Enterprises is a professional interior work company specializing in all types of interior design and work solutions. We provide quality and customized interior services for homes, offices, shops, and commercial spaces. Our focus is on quality work, modern designs, timely completion, and customer satisfaction.</p>
+                    <a href="#">pawanjangid742@gmail.com</a>
+                    <p class="mob">+91 6767676878</p>
+                </div>
+                <div id="service">
+                    <p class="info">Services</p>
+                    <ul>
+                        <li>Office Interior</li>
+                        <li>Home Interior Design</li>
+                        <li>False Ceiling & Lighting</li>
+                        <li>Shop & Commercial Interior</li>
+                        <li>Wooden & Carpenter Work</li>
+                    </ul>
+                </div>
+                <div class="address">
+                    <p class="info"> Address:-</p>
+                    <!-- <p class="add-text"> Ground floor, near vishwakarma temple,   Majri kalan, Alwar, (Raj.) 301703</p> -->
+            
+                    <pre>
+                        Ground floor,
+                        near vishwakarma temple, 
+                        Majri kalan,Alwar,
+                        (Raj.)301703</pre> 
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;Copyright, All right reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

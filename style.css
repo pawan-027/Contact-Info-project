@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(195, 201, 250);
+    height: 12vh;
+    align-content: center;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 23px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 22px;
+    padding: 0 20px;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.logo {
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.burger button {
+    padding: 4px;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    display: none;
+}
+
+.banner {
+
+    width: 89vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 89vw;
+    /* height: 50vh; */
+    /* margin: 0 5vw; */
+}
+
+#stwo {
+    justify-items: center;
+}
+
+.box {
+    width: auto;
+    justify-items: center;
+}
+
+#stwo h1 {
+    margin: 35px 0;
+    justify-self: center;
+}
+
+form label {
+    font-size: large;
+    font-weight: 700;
+}
+
+form input {
+    margin-top: 5px;
+    margin-bottom: 12px;
+    width: 20vw;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#review {
+    margin-top: 12px;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#form-btn {
+    margin-top: 25px;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#form-btn:hover {
+    background-color: rgb(67, 99, 243);
+}
+
+#about {
+    display: flex;
+    margin: 80px 0 0 0;
+    background-color: rgb(195, 201, 250);
+    width: auto;
+    padding: 60px;
+
+}
+
+.profile {
+    margin-right: 15vw;
+    width: 25vw;
+
+}
+
+.info {
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profile a {
+    display: inline-block;
+    margin-top: 17px;
+}
+
+.mob {
+    margin-top: 13px;
+}
+
+#service ul li {
+    line-height: 30px
+}
+
+.address {
+    margin-left: 15vw;
+}
+
+pre {
+    display: inline-block;
+    margin-left: -190px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+footer {
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(195, 201, 250);
+    height: 10vh;
+    align-items: center;
+    /* font-size: larger; */
+    font-optical-sizing: auto;
+    font-weight: bold;
+}
