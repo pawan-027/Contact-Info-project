@@ -45,13 +45,13 @@
 
     .box {
        justify-content: center;
-        width: 70vw;
+        width: 80vw;
     }
 
     
     .box h1 {
         font-size: 20px;
-        margin: 20px;
+        margin:  15px 20px;
     }
 
     form label {
@@ -60,7 +60,8 @@
     }
 
     form input {
-       width: 50vw;
+        margin-bottom: 10px;
+       width: 55vw;
         padding: 2px;
         margin-left: 15vw;
     }
@@ -70,14 +71,20 @@
     }
     
     #review {
-         margin: 0 40px;
+         margin: 0 45px;
         padding: 0;
+    }
+     #form-btn{
+          margin-top: 15px;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 600;
     }
 
    #about {
        flex-direction: column;
         padding: 40px;
-        margin-top: 50px;
+        margin-top: 33px;
     }
 
      .profile {
