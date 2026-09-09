@@ -55,7 +55,7 @@
     }
 
     form label {
-        margin-left: 15vw;
+        margin-left: 13vw;
         font-size: 15px;
     }
 
@@ -63,7 +63,7 @@
         margin-bottom: 10px;
        width: 55vw;
         padding: 2px;
-        margin-left: 15vw;
+        margin-left: 13vw;
     }
 
      form input:hover{
@@ -71,11 +71,11 @@
     }
     
     #review {
-         margin: 0 45px;
+         margin: 0 43px;
         padding: 0;
     }
      #form-btn{
-          margin-top: 15px;
+          margin-top: 13px;
     padding: 4px;
     font-size: 15px;
     font-weight: 600;
