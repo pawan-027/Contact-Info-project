@@ -55,15 +55,18 @@
     }
 
     form label {
-        margin-left: 13vw;
+        /* margin-left: 13vw; */
+          margin: 0 38px;
         font-size: 15px;
     }
 
     form input {
-        margin-bottom: 10px;
+      
        width: 175px;
         padding: 2px;
         margin-left: 13vw;
+          margin: 0 38px;
+          margin-bottom: 10px;
     }
 
      form input:hover{
