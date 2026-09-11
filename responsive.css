@@ -75,10 +75,12 @@
     
     #review {
          margin: 0 41px;
+         width: 175px;
         padding: 0;
     }
      #form-btn{
-          margin-top: 13px;
+            margin: 0 43px;
+          margin-top: 15px;
     padding: 4px;
     font-size: 15px;
     font-weight: 600;
