@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #282d62;
+    background-color: #f0f8ff;
 }
 
 header {
@@ -144,13 +144,25 @@ form input:hover{
     background-color:  rgb(250, 84, 7);
 }
 
+footer {
+   display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg-color);
+    height: 60vh;
+    width: 100%;
+    color: white;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.details{
+    width: 100%;
+}
+
 #about {
     display: flex;
-    margin: 80px 0 0 0;
-    background-color: var(--main-bg-color);
-    width: auto;
-    padding: 60px;
-     color: white;
+    padding: 40px;
+    color: white;
 
 }
 
@@ -195,15 +207,12 @@ pre {
     line-height: 20px;
 }
 
-footer {
-    border-top: 1px solid white;
-    display: flex;
-    justify-content: center;
-    background-color:  var(--main-bg-color);
-    height: 10vh;
-      color: white;
-    align-items: center;
-    /* font-size: larger; */
-    font-optical-sizing: auto;
-    font-weight: bold;
+.copyright{
+    /* display: inline; */
+    width: 100%;
+      border-top: 1px solid white;
+     padding: 25px 0;
+     align-content: center;
+   text-align: center;
+   height: 2vh;
 }
