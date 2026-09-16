@@ -12,12 +12,13 @@
         border-top: 1px solid aqua;
         display: none;
         position: absolute;
-        top: 30px;
+        top: 29px;
         left: 0;
         background: var(--main-bg-color);
         padding: 0 3px;
         padding: 4px 0;
         list-style: none;
+         width: 100%;
     }
 
        .logo {
